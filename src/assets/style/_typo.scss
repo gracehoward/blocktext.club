@@ -1,0 +1,43 @@
+@import url("https://use.typekit.net/qej8chc.css");
+
+@font-face {
+    font-family: "Cirka-Light";
+    src: url("../fonts/Cirka-Light.otf") format("opentype");
+}
+
+html {
+    font-size: var(--base-font-size);
+}
+
+body {
+    font-family: "neue-haas-unica", sans-serif;
+    font-weight: 300;
+}
+
+h1 {
+    font-size: var(--title-font-size);
+    font-weight: 400;
+}
+
+h2 {
+    font-size: var(--title-font-size);
+}
+
+h3 {
+    font-size: var(--desc-font-size);
+    line-height: var(--line-height) - 5px;
+}
+
+p {
+    font-size: var(--base-font-size);
+    line-height: var(--line-height);
+}
+
+a {
+    color: var(--body-color);
+    text-decoration: none;
+
+    &:hover {
+        color: var(--link-color);
+    }
+}

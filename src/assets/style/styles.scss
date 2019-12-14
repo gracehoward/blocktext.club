@@ -1,0 +1,47 @@
+@import "reset";
+@import "variables";
+@import "typo";
+@import "code";
+
+html {
+    width: 100%;
+    font-size: var(--base-font-size);
+}
+
+body {
+    padding: 0 var(--space-large);
+}
+
+hr {
+    border-top: 1px solid var(--line-color);
+}
+
+// Post header
+
+.post-card {
+    margin: 0 auto;
+    padding-bottom: var(--post-spacer);
+
+    &__header {
+        // border-top: 1px solid var(--title-color);
+        // border-bottom: 1px solid var(--title-color);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        min-height: var(--header-height);
+        max-height: var(--header-height);
+    }
+
+    &__title {
+        float: left;
+    }
+
+    &__description {
+        width: 30vw;
+    }
+
+    &__date {
+        float: right;
+        font-family: "Cirka-Light";
+    }
+}
