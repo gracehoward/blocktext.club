@@ -1,14 +1,7 @@
-# Default starter for Gridsome
+# gkh/blog
 
-This is the project you get when you run `gridsome create new-project`.
+A small blog of thoughts that exceed 280 characters, an exercise in
+self-publishing on the web.
 
-### 1. Install Gridsome CLI tool if you don't have
-
-`npm install --global @gridsome/cli`
-
-### 2. Create a Gridsome project
-
-1. `gridsome create my-gridsome-site` to install default starter
-2. `cd my-gridsome-site` to open the folder
-3. `gridsome develop` to start a local dev server at `http://localhost:8080`
-4. Happy coding 🎉🙌
+Built with Gridsome, powered by Vue, and deployed to ZEIT Now.
+Typeset in Neue Haas Unica and Cirka.
