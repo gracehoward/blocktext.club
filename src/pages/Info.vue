@@ -19,8 +19,6 @@ export default {
         title: "Info"
     }
 };
-
-console.log(window.innerWidth);
 </script>
 
 <style lang="scss">
