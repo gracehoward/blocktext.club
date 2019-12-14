@@ -7,8 +7,13 @@
             self-publishing on the web.
         </p>
         <p>
-            Built with Gridsome, powered by Vue, and deployed to ZEIT Now.
-            Typeset in Neue Haas Unica and Cirka.
+            Built with <a href="https://gridsome.org/">Gridsome</a>, powered by
+            <a href="https://vuejs.org/">Vue</a>, and deployed to
+            <a href="https://zeit.co/">ZEIT Now</a>. Typeset in
+            <a href="https://www.monotype.com/fonts/neue-haas-unica/">
+                Neue Haas Unica
+            </a>
+            and <a href="https://www.nicklosacco.com/cirka">Cirka</a>.
         </p>
     </Layout>
 </template>

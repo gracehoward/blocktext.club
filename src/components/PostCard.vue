@@ -1,7 +1,7 @@
 <template>
     <div class="post-card">
         <hr class="line" />
-        <g-link :to="post.path" class="read">
+        <g-link :to="post.path" class="glink">
             <div class="post-card__header">
                 <h1 class="post-card__title" v-html="post.title" />
                 <h3 class="post-card__description" v-html="post.description" />

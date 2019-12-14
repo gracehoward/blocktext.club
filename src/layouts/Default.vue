@@ -2,11 +2,13 @@
     <div class="layout">
         <header class="header">
             <strong>
-                <g-link to="/">{{ $static.metadata.siteName }}</g-link>
+                <g-link to="/" class="glink">{{
+                    $static.metadata.siteName
+                }}</g-link>
             </strong>
             <h3 class="site-description"></h3>
             <nav class="nav">
-                <g-link class="nav__link" to="/info/">/info</g-link>
+                <g-link class="glink" to="/info/">/info</g-link>
             </nav>
         </header>
         <slot />
@@ -23,19 +25,6 @@ query {
 </static-query>
 
 <style lang="scss">
-// body {
-//     margin: 0;
-//     padding: 0;
-//     line-height: 1.5;
-// }
-
-// .layout {
-//     max-width: 760px;
-//     margin: 0 auto;
-//     padding-left: 20px;
-//     padding-right: 20px;
-// }
-
 .header {
     display: flex;
     justify-content: space-between;
@@ -51,6 +40,5 @@ site-description {
 }
 
 .nav__link {
-    margin-left: 20px;
 }
 </style>

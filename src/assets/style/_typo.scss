@@ -14,6 +14,10 @@ body {
     font-weight: 300;
 }
 
+header {
+    font-family: "neue-haas-unica", sans-serif;
+}
+
 h1 {
     font-size: var(--title-font-size);
     font-weight: 400;
@@ -36,8 +40,14 @@ p {
 a {
     color: var(--body-color);
     text-decoration: none;
+    font-family: "Cirka-Light";
+    font-size: var(--link-font-size);
 
     &:hover {
         color: var(--link-color);
     }
+}
+
+.glink {
+    font-family: "neue-haas-unica", sans-serif;
 }
