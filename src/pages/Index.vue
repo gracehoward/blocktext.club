@@ -1,6 +1,5 @@
 <template>
     <Layout>
-        <!-- Learn how to use images here: https://gridsome.org/docs/images -->
         <!-- <g-image alt="Example image" src="~/favicon.png" width="135" /> -->
         <!-- List of posts -->
         <div class="posts">
@@ -15,7 +14,7 @@
 
 <page-query>
 query {
-  allPost {
+  allPost(filter: { published: { eq: true }}) {
     totalCount
     edges {
       node {
@@ -23,7 +22,12 @@ query {
         title
         date (format: "DD MMM YYYY")
         description
+        excerpt
         path
+        tags {
+          id
+          title
+        }
       }
     }
   }

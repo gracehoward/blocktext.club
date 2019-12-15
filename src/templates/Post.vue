@@ -5,9 +5,7 @@
             <h1 class="post-card__title">
                 {{ $page.post.title }}
             </h1>
-            <h3 class="post-card__description">
-                {{ $page.post.description }}
-            </h3>
+            <PostTags class="post-card__tags" />
             <h2 class="post-card__date">
                 {{ $page.post.date }}
             </h2>
@@ -31,6 +29,17 @@ query Post ($path: String!) {
     }
 }
 </page-query>
+
+<script>
+import PostTags from "~/components/PostTags";
+
+export default {
+    components: {
+        PostTags
+    },
+    props: ["post"]
+};
+</script>
 
 <style lang="scss">
 .post-content {

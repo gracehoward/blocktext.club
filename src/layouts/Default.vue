@@ -38,7 +38,4 @@ query {
 site-description {
     width: 30vw;
 }
-
-.nav__link {
-}
 </style>
