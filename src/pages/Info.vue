@@ -8,7 +8,7 @@
         </p>
         <p>
             Built with <a href="https://gridsome.org/">Gridsome</a>, powered by
-            <a href="https://vuejs.org/">Vue</a>, and deployed with
+            <a href="https://vuejs.org/">Vue</a>, and deployed to
             <a href="https://zeit.co/">ZEIT Now</a>. Typeset in
             <a href="https://www.monotype.com/fonts/neue-haas-unica/">
                 Neue Haas Unica

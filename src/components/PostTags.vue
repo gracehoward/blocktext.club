@@ -17,8 +17,4 @@ export default {
 };
 </script>
 
-<style lang="scss">
-.post-tags {
-    position: inherit;
-}
-</style>
+<style lang="scss"></style>
