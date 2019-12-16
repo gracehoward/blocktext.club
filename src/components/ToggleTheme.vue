@@ -5,8 +5,8 @@
         @click.prevent="toggleTheme"
         class="toggle-theme"
     >
-        <svg
-            v-if="darkTheme"
+        <!-- <svg
+            v-if="!darkTheme"
             xmlns="http://www.w3.org/2000/svg"
             width="24"
             height="24"
@@ -42,7 +42,9 @@
             class="feather feather-moon"
         >
             <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
-        </svg>
+        </svg> -->
+        <h1 v-if="!darkTheme">☀</h1>
+        <h1 v-else>☾</h1>
     </button>
 </template>
 
@@ -75,7 +77,7 @@ export default {
     cursor: pointer;
 
     &:hover {
-        opacity: 0.8;
+        opacity: 0.6;
     }
     &:focus {
         outline: none;
