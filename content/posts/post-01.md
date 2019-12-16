@@ -22,7 +22,6 @@ The increasing control of the few megacorporations has posed an existential thre
 The Web 3.0 movement seeks to push back against the technofascism of Big Tech, proposing systems of distribution, rather than centralization.
 I would argue that acts of web-based, self-publication outside of the grasp of these corporate platforms is just as urgent.
 
-At the moment, I'm still in the process of developing a better relationship with the web, and thinking about how my actions existing within and subverting these systems.
-I'm thinking a lot about how I want to play a role in building the future of the web,
+At the moment, I'm still in the process of developing a better relationship with the web, whether that be by adopting better practices, engaging in critical dialogues re: Internet, power, and society, and so on.  
 
-Anyway, at least it's not a podcast.
+Anyway, at least it isn't a podcast.

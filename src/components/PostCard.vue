@@ -1,7 +1,7 @@
 <template>
     <div class="post-card">
-        <hr class="line" />
         <g-link :to="post.path" class="glink">
+            <hr class="line" />
             <div class="post-card__header">
                 <h1 class="post-card__title" v-html="post.title" />
                 <PostTags class="post-card__tags" :post="post" />
@@ -28,13 +28,17 @@ export default {
 
 <style lang="scss">
 .post-card {
-    &:hover {
-        color: var(--link-color);
-        transform: translateY(-5px);
-        transition: transform 0.3s;
-
-        hr {
-            border-top: 1px solid var(--link-color);
+    &__description {
+        margin-top: var(--paragraph-height);
+    }
+    .glink {
+        &:hover {
+            color: var(--link-color);
+            transform: translateY(-5px);
+            transition: transform 0.3s;
+            hr {
+                border-top: 1px solid var(--link-color);
+            }
         }
     }
 }

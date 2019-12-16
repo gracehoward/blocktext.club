@@ -10,7 +10,6 @@ pre {
     padding: calc(var(--space) / 2);
     font-size: 0.85em;
     margin-bottom: 2em;
-    border: 1px solid var(--border-color);
 }
 
 code {
@@ -21,7 +20,8 @@ code {
 
 code[class*="language-"],
 pre[class*="language-"] {
-    font-family: Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+    font-family: SF Mono, Consolas, Monaco, "Andale Mono", "Ubuntu Mono",
+        monospace;
     text-align: left;
     white-space: pre;
     word-spacing: normal;

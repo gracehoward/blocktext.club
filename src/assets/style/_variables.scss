@@ -3,7 +3,7 @@ html {
     --base-font-size: 28px;
 }
 
-// Light default theme
+// Default theme
 body {
     --bg-color: #ffffff;
     --bg-content-color: #fff;
@@ -16,11 +16,12 @@ body {
     --link-font-size: 32px;
     --line-color: #000;
     --content-width: 90%;
-    --header-height: 6vh;
-    --line-height: 1.1em;
+    --header-height: 55px;
+    --line-height: 1.15em;
+    --paragraph-height: 30px;
     --space: 45px;
     --space-large: 80px;
-    --post-spacer: 20px;
+    --post-spacer: 30px;
 }
 
 // LG
@@ -62,9 +63,10 @@ body {
         --desc-font-size: 0px;
         --link-font-size: 20px;
         --header-height: 4vh;
+        --paragraph-height: 15px;
         --space: 30px;
         --space-large: 40px;
-        --post-spacer: 10px;
+        --post-spacer: 18px;
     }
 }
 

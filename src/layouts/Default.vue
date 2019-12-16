@@ -30,7 +30,7 @@ query {
     justify-content: space-between;
     align-items: center;
     margin: var(--space) 0;
-    height: 20px;
+    height: 10px;
     font-size: var(--title-font-size);
     font-weight: 400;
 }

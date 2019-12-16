@@ -1,19 +1,20 @@
 <template>
     <Layout>
-        <hr class="line" />
-        <div class="post-card__header">
-            <h1 class="post-card__title">
-                {{ $page.post.title }}
-            </h1>
-            <PostTags class="post-card__tags" />
-            <h2 class="post-card__date">
-                {{ $page.post.date }}
-            </h2>
-        </div>
-        <hr class="line" />
-
-        <div class="post-content">
-            <p v-html="$page.post.content" />
+        <div class="post-card">
+            <hr class="line" />
+            <div class="post-card__header">
+                <h1 class="post-card__title">
+                    {{ $page.post.title }}
+                </h1>
+                <!-- <PostTags class="post-card__tags" /> -->
+                <h2 class="post-card__date">
+                    {{ $page.post.date }}
+                </h2>
+            </div>
+            <hr class="line" />
+            <div class="post-content">
+                <p v-html="$page.post.content" />
+            </div>
         </div>
     </Layout>
 </template>
@@ -43,8 +44,9 @@ export default {
 
 <style lang="scss">
 .post-content {
+    // margin-top: 16px;
     p {
-        margin-bottom: 30px;
+        margin-top: var(--paragraph-height);
     }
 }
 </style>
