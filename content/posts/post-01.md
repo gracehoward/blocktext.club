@@ -1,11 +1,11 @@
 ---
 date: "2019-12-14"
-title: "post-01"
+title: "Post-01"
 description: "As seems to happen to many people these days, I've recently found myself with an increasing desire to push my thoughts and opinions out into the world via the Internet. 
 I fought it as long as I could, but here we are.
 The urge to let my thoughts be known has always been at odds with my extreme aversion to posting anything on social media, so I spent a long time thinking of a way to compromise.
 I made a Medium account and entertained the idea of publishing there, but concerns about platform, production, and ownership persisted."
-tags: ["Obligatory introductory first post. Welcome to gkh/blog!"]
+tags: ["Obligatory introductory first post. Welcome to gkh/blog."]
 published: true
 ---
 
@@ -22,6 +22,6 @@ The increasing control of the few megacorporations has posed an existential thre
 The Web 3.0 movement seeks to push back against the technofascism of Big Tech, proposing systems of distribution, rather than centralization.
 I would argue that acts of web-based, self-publication outside of the grasp of these corporate platforms is just as urgent.
 
-At the moment, I'm still in the process of developing a better relationship with the web, whether that be by adopting better practices, engaging in critical dialogues re: Internet, power, and society, and so on.  
+At the moment, I'm still in the process of developing a better relationship with the web, whether that be by adopting better practices, engaging in critical dialogues re: Internet, power, and society, and so on.
 
 Anyway, at least it isn't a podcast.

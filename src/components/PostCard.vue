@@ -34,10 +34,11 @@ export default {
     .glink {
         &:hover {
             color: var(--link-color);
-            transform: translateY(-5px);
-            transition: transform 0.3s;
+            transform: translateY(5px);
+            transition: transform 0.5s;
             hr {
                 border-top: 1px solid var(--link-color);
+                border-bottom: 0;
             }
         }
     }
