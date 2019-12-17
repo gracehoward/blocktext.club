@@ -16,13 +16,13 @@ body {
     --link-color: #f1a922;
     --link-font-size: 32px;
     --line-color: #000;
-    --content-width: 90%;
     --header-height: 55px;
     --line-height: 1.15em;
     --paragraph-height: 28px;
     --space: 45px;
     --space-large: 80px;
     --post-spacer: 25px;
+    --content-width: 90%;
 }
 
 // LG
@@ -68,6 +68,7 @@ body {
         --space: 30px;
         --space-large: 40px;
         --post-spacer: 18px;
+        --content-width: 95%;
     }
 }
 

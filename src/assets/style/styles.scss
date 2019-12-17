@@ -4,7 +4,7 @@
 @import "code";
 
 html {
-    width: 95%;
+    width: var(--content-width);
     margin: 0 auto;
     font-size: var(--base-font-size);
 }
