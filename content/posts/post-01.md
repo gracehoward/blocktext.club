@@ -1,27 +1,14 @@
 ---
-date: "2019-12-14"
-title: "Post-01"
-description: "As seems to happen to many people these days, I've recently found myself with an increasing desire to push my thoughts and opinions out into the world via the Internet. 
-I fought it as long as I could, but here we are.
-The urge to let my thoughts be known has always been at odds with my extreme aversion to posting anything on social media, so I spent a long time thinking of a way to compromise.
-I made a Medium account and entertained the idea of publishing there, but concerns about platform, production, and ownership persisted."
-tags: ["Obligatory introductory first post. Welcome to gkh/blog."]
+date: "2019-12-21"
+title: "post-01"
+description: "Rhoncus aenean vel elit scelerisque mauris pellentesque pulvinar. purus in massa tempor nec feugiat nisl pretium fusce id. quis lectus nulla at volutpat. Egestas integer eget aliquet nibh praesent tristique magna sit. Ultricies tristique nulla aliquet enim tortor. Blandit turpis cursus in hac. Euismod in pellentesque massa placerat duis ultricies lacus sed turpis. Pellentesque habitant morbi tristique senectus et. Euismod quis viverra nibh cras pulvinar mattis nunc sed. In eu mi bibendum neque egestas congue quisque egestas diam."
+tags:
+    [
+        "Rhoncus aenean vel elit scelerisque mauris pellentesque pulvinar. Purus in massa tempor nec feugiat nisl pretium fusce id.",
+    ]
 published: true
 ---
 
-As seems to happen to many people these days, I've recently found myself with an increasing desire to push my thoughts and opinions out into the world via the Internet.
-I fought it as long as I could, but here we are.
-The urge to let my thoughts be known has always been at odds with my extreme aversion to posting anything on social media, so I spent a long time thinking of a way to compromise.
-I made a Medium account and entertained the idea of publishing there, but concerns about platform, production, and ownership persisted.
-My only other social media is Twitter, and often I'd find myself drafting thoughts in the form of tweets, but somewhere along the process of forming and refining my ideas, they'd evolve quickly beyond the 280 character limit.
-Even short thoughts struggle to find their way out of my Twitter drafts.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed turpis tincidunt id aliquet risus. Urna nunc id cursus metus aliquam eleifend mi. Malesuada proin libero nunc consequat interdum varius sit amet. Sit amet nisl <a href="#">suscipit adipiscing</a> bibendum est. Donec adipiscing tristique risus nec feugiat in. Velit aliquet sagittis id consectetur purus ut faucibus. At varius vel pharetra vel turpis nunc eget. Turpis egestas sed tempus urna et pharetra pharetra. Blandit volutpat maecenas volutpat blandit aliquam. Nec feugiat nisl pretium fusce id velit. Elementum facilisis leo vel fringilla est ullamcorper eget nulla facilisi. Pellentesque diam volutpat commodo sed egestas. Volutpat sed cras ornare arcu dui vivamus arcu felis bibendum. Integer enim neque volutpat ac. Potenti nullam ac tortor vitae purus. Amet consectetur adipiscing elit pellentesque habitant morbi tristique senectus et.
 
-I believe strongly in the act of independent publication, both as an artistic practice and as an urgent praxis (see Paul Soullelis' [QUEER.ARCHIVE.WORK](https://soulellis.com/work/queerarchivework/index.html) and [Search, Compile, Publish](https://soulellis.com/2013/05/search-compile-publish/)).
-In the current moment, the barriers to entry are lower than they've ever been, and the Internet is to thank for that; indeed, arguably, the ethos of the early Internet was largely predicated on the very idea of an open and free dissemination of ideas.
-The increasing control of the few megacorporations has posed an existential threat to this core ethos, and Tim Berners-Lee, "inventor of the HTTP protocol and de facto father of the web, has spoken frequently about the need to actively resist web centralization so as to keep his creation in the hands of the people" ([BREAKERMAG](https://breakermag.com/the-decentralized-web-explained-in-words-you-can-understand/)).
-The Web 3.0 movement seeks to push back against the technofascism of Big Tech, proposing systems of distribution, rather than centralization.
-I would argue that acts of web-based, self-publication outside of the grasp of these corporate platforms is just as urgent.
-
-At the moment, I'm still in the process of developing a better relationship with the web, whether that be by adopting better practices, engaging in critical dialogues re: Internet, power, and society, and so on.
-
-Anyway, at least it isn't a podcast.
+Nulla malesuada pellentesque elit eget gravida cum sociis. Id leo in vitae turpis massa sed elementum tempus egestas. Libero id faucibus nisl tincidunt eget nullam non nisi est. Id diam vel quam elementum pulvinar. Enim praesent elementum facilisis leo vel fringilla est ullamcorper eget. Id diam maecenas ultricies mi eget mauris. Ipsum dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Libero id faucibus nisl tincidunt. Duis at consectetur lorem donec massa sapien faucibus et. Vivamus arcu felis bibendum ut tristique. Risus nec feugiat in fermentum. Nunc non blandit massa enim nec dui nunc. Adipiscing bibendum est ultricies integer. Cursus metus aliquam eleifend mi in nulla. In ante metus dictum at tempor commodo ullamcorper a. Lacus viverra vitae congue eu consequat ac. Lectus quam id leo in vitae turpis massa sed.
