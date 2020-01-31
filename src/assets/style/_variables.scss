@@ -23,11 +23,17 @@ body {
 	--line-color: #000;
 	--header-width: 90vw;
 	--header-height: 55px;
+	--post-card-width: 9em;
+	--post-card-height: 20em;
+	--post-card-margin: 1em 2em 0 0;
+	--post-card-padding: 2em 1.5em 0 1.5em;
+	--header-height: 55px;
 	--line-height: 1.15em;
 	--paragraph-height: 28px;
 	--paragraph-line-height: 35px;
 	--post-margin: 5.5em 0;
 	--post-padding: 0 11em;
+	--post-description-padding: 0 1em 1em 1em;
 	--space: 45px;
 	--space-large: 80px;
 }
@@ -64,29 +70,36 @@ body {
 // SM
 @media screen and (max-width: $small) {
 	html {
-		--base-font-size: 17px;
+		--base-font-size: 16px;
 	}
 	body {
 		--title-font-size: 20px;
-		--desc-font-size: 0px;
-		--link-font-size: 20px;
+		--desc-font-size: 18px;
+		--link-font-size: 18px;
 		--header-width: 80vw;
 		--header-height: 4vh;
+		--post-card-width: 10em;
+		--post-card-height: 20em;
+		--post-card-margin: 1em 0;
+		--post-card-padding: 2em 1.5em 0 1.5em;
+		--post-margin: 5.5em 0;
+		--post-padding: 0 0;
+		--post-description-padding: 0 0 1em 0;
 		--paragraph-height: 15px;
+		--paragraph-line-height: 20px;
 		--space: 30px;
 		--space-large: 40px;
-		--post-spacer: 18px;
 	}
 }
 
 // XS
 @media screen and (max-width: $xsmall) {
 	html {
-		--base-font-size: 17px;
+		--base-font-size: 16px;
 	}
 	body {
 		--title-font-size: 20px;
-		--desc-font-size: 0px;
+		--desc-font-size: 18px;
 		--header-height: 4vh;
 		--space: 30px;
 		--space-large: 40px;

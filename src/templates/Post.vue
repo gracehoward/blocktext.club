@@ -13,9 +13,9 @@
 			<!-- <hr /> -->
 			<br />
 			<div class="post-content">
-				<h2 class="post-card__description">
+				<h3 class="post-card__description">
 					{{ $page.post.description }}
-				</h2>
+				</h3>
 				<p v-html="$page.post.content" />
 			</div>
 
@@ -49,14 +49,16 @@ export default {
 </script>
 
 <style lang="scss">
+@import "../assets/style/_variables.scss";
+
 hr {
 	border-top: 1px solid var(--body-color);
 	border-bottom: 0;
 }
 
 .post-page {
-	padding: 0 11em;
-	margin: 5.5em 0;
+	margin: var(--post-margin);
+	padding: var(--post-padding);
 
 	.post-card__header {
 		display: flex;
@@ -79,7 +81,7 @@ hr {
 	}
 
 	.post-card__description {
-		padding: 0 1em 1em 1em;
+		padding: var(--post-description-padding);
 		text-align: center;
 		font-weight: 400;
 		text-transform: uppercase;

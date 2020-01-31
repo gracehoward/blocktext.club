@@ -55,13 +55,15 @@ export default {
 			delta = delta * -300;
 			document.documentElement.scrollLeft -= delta;
 			document.body.scrollLeft -= delta;
-			e.preventDefault();
+			//e.preventDefault();
 		});
 	}
 };
 </script>
 
 <style lang="scss">
+@import "../assets/style/_variables.scss";
+
 /*.scrolling-wrapper-posts {
 	display: flex;
 	flex-wrap: nowrap;
@@ -74,19 +76,35 @@ export default {
 
 	.post-index {
 		display: flex;
-		flex: 0 0 auto;
 		flex-direction: column;
+		align-items: center;
 		border: 1px solid var(--body-color);
-		padding: 2em 1.5em 0 1.5em;
-		margin: 1em 2em 0 0;
-		max-width: 9em;
-		min-width: 9em;
-		min-height: 20em;
+		padding: var(--post-card-padding);
+		margin: var(--post-card-margin);
+		max-width: var(--post-card-width);
+		min-width: var(--post-card-width);
+		min-height: var(--post-card-height);
 		transition: 0.2s;
 
 		&:hover {
 			border: 1px solid var(--link-color);
 			border-radius: 2em;
+		}
+	}
+}
+
+@media screen and (max-width: $small) {
+	.posts {
+		/*display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		align-content: center;*/
+		padding: 5em 0;
+		.post-index {
+			margin: 5em 2em 0 0;
+			max-width: 10em;
+			min-width: 10em;
+			min-height: 23em;
 		}
 	}
 }
