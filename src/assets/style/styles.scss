@@ -4,48 +4,25 @@
 @import "code";
 
 html {
-    width: var(--content-width);
-    margin: 0 auto;
-    font-size: var(--base-font-size);
+	width: var(--content-width);
+	margin: 0 auto;
+	font-size: var(--base-font-size);
 }
 
 body {
-    padding: 0 var(--space-large);
-    background-color: var(--bg-color);
-    color: var(--body-color);
-    transition: color 0.6s, background-color 0.6s, transform 0.6s;
+	padding: 0 var(--space-large);
+	background-color: var(--bg-color);
+	color: var(--body-color);
+	transition: color 0.6s, background-color 0.6s, transform 0.6s;
 }
 
 hr {
-    border-top: 1px solid var(--line-color);
+	border-top: 1px solid var(--line-color);
 }
 
-// Post header
-
-.post-card {
-    margin: 0 auto;
-    padding-bottom: var(--post-spacer);
-
-    &__header {
-        // border-top: 1px solid var(--title-color);
-        // border-bottom: 1px solid var(--title-color);
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        min-height: var(--header-height);
-        max-height: var(--header-height);
-    }
-
-    &__title {
-        float: left;
-    }
-
-    &__tags {
-        width: 30vw;
-    }
-
-    &__date {
-        float: right;
-        font-family: "Cirka-Light";
-    }
+a {
+	border-bottom: 1px solid var(--body-color);
+	&:hover {
+		border-bottom: 1px solid var(--link-color);
+	}
 }

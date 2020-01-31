@@ -1,22 +1,28 @@
 <template>
-    <Layout>
-        <div class="post-card">
-            <hr class="line" />
-            <div class="post-card__header">
-                <h1 class="post-card__title">
-                    {{ $page.post.title }}
-                </h1>
-                <!-- <PostTags class="post-card__tags" /> -->
-                <h2 class="post-card__date">
-                    {{ $page.post.date }}
-                </h2>
-            </div>
-            <hr class="line" />
-            <div class="post-content">
-                <p v-html="$page.post.content" />
-            </div>
-        </div>
-    </Layout>
+	<Layout>
+		<div class="post-page">
+			<div class="post-card__header">
+				<h1 class="post-card__title">
+					{{ $page.post.title }}
+				</h1>
+				<h2 class="post-card__date">
+					{{ $page.post.date }}
+				</h2>
+			</div>
+
+			<!-- <hr /> -->
+			<br />
+			<div class="post-content">
+				<h2 class="post-card__description">
+					{{ $page.post.description }}
+				</h2>
+				<p v-html="$page.post.content" />
+			</div>
+
+			<!-- Link to prev post -->
+			<!-- Link to next post -->
+		</div>
+	</Layout>
 </template>
 
 <page-query>
@@ -35,18 +41,48 @@ query Post ($path: String!) {
 import PostTags from "~/components/PostTags";
 
 export default {
-    components: {
-        PostTags
-    },
-    props: ["post"]
+	components: {
+		PostTags
+	},
+	props: ["post"]
 };
 </script>
 
 <style lang="scss">
+hr {
+	border-top: 1px solid var(--body-color);
+	border-bottom: 0;
+}
+
+.post-page {
+	padding: 0 11em;
+	margin: 5.5em 0;
+
+	.post-card__header {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		border: 1px solid var(--body-color);
+		padding: 1em;
+	}
+}
+
 .post-content {
-    // margin-top: 16px;
-    p {
-        margin-top: var(--paragraph-height);
-    }
+	margin: 0 auto;
+	border: 1px solid var(--body-color);
+	padding: 2em;
+	// margin-top: 16px;
+
+	p {
+		margin-top: var(--paragraph-height);
+		line-height: var(--paragraph-line-height);
+	}
+
+	.post-card__description {
+		padding: 0 1em 1em 1em;
+		text-align: center;
+		font-weight: 400;
+		text-transform: uppercase;
+	}
 }
 </style>

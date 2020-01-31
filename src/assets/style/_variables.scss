@@ -1,98 +1,105 @@
+// Breakpoints (width)
+$large: 1024px;
+$medium: 768px;
+$small: 650px;
+$xsmall: 360px;
+
 // Default variables
 html {
-    --base-font-size: 28px;
+	--base-font-size: 28px;
 }
 
 // Default theme
 body {
-    --bg-color: #ffffff;
-    --bg-content-color: #fff;
-    --bg-code: #ffffff;
-    --body-color: #000;
-    --title-color: #000;
-    --title-font-size: 30px;
-    --desc-font-size: 19px;
-    // --link-color: #0041b9;
-    --link-color: #f1a922;
-    --link-font-size: 32px;
-    --line-color: #000;
-    --header-height: 55px;
-    --line-height: 1.15em;
-    --paragraph-height: 28px;
-    --space: 45px;
-    --space-large: 80px;
-    --post-spacer: 25px;
-    --content-width: 90%;
+	--bg-color: #ffffff;
+	--bg-content-color: #fff;
+	--bg-code: #fff;
+	--body-color: #000;
+	--title-color: #000;
+	--title-font-size: 40px;
+	--desc-font-size: 30px;
+	--link-color: #444;
+	--link-font-size: 32px;
+	--line-color: #000;
+	--header-width: 90vw;
+	--header-height: 55px;
+	--line-height: 1.15em;
+	--paragraph-height: 28px;
+	--paragraph-line-height: 35px;
+	--post-margin: 5.5em 0;
+	--post-padding: 0 11em;
+	--space: 45px;
+	--space-large: 80px;
 }
 
 // LG
-@media screen and (max-width: 1024px) {
-    html {
-        --base-font-size: 17px;
-    }
-    body {
-        --title-font-size: 18px;
-        --desc-font-size: 14px;
-        --link-font-size: 18px;
-        --header-height: 5vh;
-        --space: 30px;
-        --space-large: 40px;
-    }
+@media screen and (max-width: $large) {
+	html {
+		--base-font-size: 17px;
+	}
+	body {
+		--title-font-size: 18px;
+		--desc-font-size: 14px;
+		--link-font-size: 18px;
+		--header-height: 5vh;
+		--space: 30px;
+		--space-large: 40px;
+	}
 }
 
 // MD
-@media screen and (max-width: 768px) {
-    html {
-        --base-font-size: 17px;
-    }
-    body {
-        --title-font-size: 20px;
-        --desc-font-size: 14px;
-        --header-height: 5vh;
-        --space: 30px;
-        --space-large: 40px;
-    }
+@media screen and (max-width: $medium) {
+	html {
+		--base-font-size: 17px;
+	}
+	body {
+		--title-font-size: 20px;
+		--desc-font-size: 14px;
+		--header-height: 5vh;
+		--space: 30px;
+		--space-large: 40px;
+	}
 }
 
 // SM
-@media screen and (max-width: 650px) {
-    html {
-        --base-font-size: 17px;
-    }
-    body {
-        --title-font-size: 20px;
-        --desc-font-size: 0px;
-        --link-font-size: 20px;
-        --header-height: 4vh;
-        --paragraph-height: 15px;
-        --space: 30px;
-        --space-large: 40px;
-        --post-spacer: 18px;
-        --content-width: 95%;
-    }
+@media screen and (max-width: $small) {
+	html {
+		--base-font-size: 17px;
+	}
+	body {
+		--title-font-size: 20px;
+		--desc-font-size: 0px;
+		--link-font-size: 20px;
+		--header-width: 80vw;
+		--header-height: 4vh;
+		--paragraph-height: 15px;
+		--space: 30px;
+		--space-large: 40px;
+		--post-spacer: 18px;
+	}
 }
 
 // XS
-@media screen and (max-width: 360px) {
-    html {
-        --base-font-size: 17px;
-    }
-    body {
-        --title-font-size: 20px;
-        --desc-font-size: 0px;
-        --header-height: 4vh;
-        --space: 30px;
-        --space-large: 40px;
-    }
+@media screen and (max-width: $xsmall) {
+	html {
+		--base-font-size: 17px;
+	}
+	body {
+		--title-font-size: 20px;
+		--desc-font-size: 0px;
+		--header-height: 4vh;
+		--space: 30px;
+		--space-large: 40px;
+	}
 }
 
 // Override variables for Dark theme
 body[data-theme="dark"] {
-    --bg-color: #000;
-    --bg-content-color: #000;
-    --bg-code: rgba(0, 0, 0, 0.3);
-    --border-color: rgba(255, 255, 255, 0.1);
-    --body-color: #ced8de;
-    --title-color: #fff;
-    --link-color: #1553c5;
+	--bg-color: #000;
+	--bg-content-color: #000;
+	--bg-code: rgba(0, 0, 0, 0.3);
+	--border-color: rgba(255, 255, 255, 0.1);
+	--body-color: #ced8de;
+	--title-color: #fff;
+	--link-color: #fff;
 }
