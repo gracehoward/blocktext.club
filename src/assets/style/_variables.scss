@@ -17,6 +17,8 @@ body {
 	--bg-code: #fff;
 	--body-color: #000;
 	--title-color: #000;
+	--progress-bar-color: #000;
+	--progress-bar-height: 15px;
 	--title-font-size: 40px;
 	--desc-font-size: 33px;
 	--link-color: #444;
@@ -135,6 +137,7 @@ body {
 		--paragraph-line-height: 20px;
 		--space: 30px;
 		--space-large: 40px;
+		--progress-bar-height: 5px;
 	}
 }
 
@@ -161,4 +164,5 @@ body[data-theme="dark"] {
 	--body-color: #ced8de;
 	--title-color: #fff;
 	--link-color: #fff;
+	--progress-bar-color: #fff;
 }

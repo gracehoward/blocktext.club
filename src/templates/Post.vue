@@ -1,5 +1,12 @@
 <template>
 	<Layout>
+		<vue-read-progress
+			color="var(--progress-bar-color)"
+			opacity="1"
+			height="var(--progress-bar-height)"
+			:shadow="false"
+		></vue-read-progress>
+
 		<div class="post-page">
 			<div class="post-card__header">
 				<h1 class="post-card__title">
@@ -38,11 +45,13 @@ query Post ($path: String!) {
 </page-query>
 
 <script>
-import PostTags from "~/components/PostTags";
+import PostTags from "@/components/PostTags.vue";
+import VueReadProgress from "@/components/VueReadProgress.vue";
 
 export default {
 	components: {
-		PostTags
+		PostTags,
+		VueReadProgress
 	},
 	props: ["post"]
 };
