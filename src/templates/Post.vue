@@ -72,7 +72,7 @@ hr {
 .post-content {
 	margin: 0 auto;
 	border: 1px solid var(--body-color);
-	padding: 2em;
+	padding: var(--post-content-padding);
 	// margin-top: 16px;
 
 	p {

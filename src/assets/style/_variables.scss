@@ -1,4 +1,5 @@
 // Breakpoints (width)
+$xlarge: 1200px;
 $large: 1024px;
 $medium: 768px;
 $small: 650px;
@@ -34,8 +35,34 @@ body {
 	--post-margin: 5.5em 0;
 	--post-padding: 0 11em;
 	--post-description-padding: 0 1em 1em 1em;
+	--post-content-padding: 2em;
 	--space: 45px;
 	--space-large: 80px;
+}
+
+// XL
+@media screen and (max-width: $xlarge) {
+	html {
+		--base-font-size: 25px;
+	}
+	body {
+		--title-font-size: 33px;
+		--desc-font-size: 30px;
+		--link-font-size: 28px;
+		--header-height: 5vh;
+		--post-card-width: 9em;
+		--post-card-height: 20em;
+		--post-card-margin: 1em 2em 0 0;
+		--post-card-padding: 2em 1.5em 0 1.5em;
+		--post-margin: 5.5em 0;
+		--post-padding: 0 10em;
+		--post-description-padding: 0 0.5em 0.5em 0.5em;
+		--post-content-padding: 1.75em;
+		--paragraph-height: 28px;
+		--paragraph-line-height: 28px;
+		--space: 30px;
+		--space-large: 40px;
+	}
 }
 
 // LG
@@ -48,6 +75,15 @@ body {
 		--desc-font-size: 14px;
 		--link-font-size: 18px;
 		--header-height: 5vh;
+		--post-card-width: 9em;
+		--post-card-height: 15em;
+		--post-card-margin: 1em 2em 0 0;
+		--post-card-padding: 2em 1.5em 0 1.5em;
+		--post-margin: 5.5em 0;
+		--post-padding: 0 6em;
+		--post-description-padding: 0 0.5em 0.5em 0.5em;
+		--paragraph-height: 28px;
+		--paragraph-line-height: 22px;
 		--space: 30px;
 		--space-large: 40px;
 	}
@@ -60,8 +96,17 @@ body {
 	}
 	body {
 		--title-font-size: 20px;
-		--desc-font-size: 14px;
+		--desc-font-size: 19px;
 		--header-height: 5vh;
+		--post-card-width: 9em;
+		--post-card-height: 20em;
+		--post-card-margin: 1em 2em 0 0;
+		--post-card-padding: 2em 1.5em 0 1.5em;
+		--post-margin: 5.5em 0;
+		--post-padding: 0 6em;
+		--post-description-padding: 0 0.5em 0.5em 0.5em;
+		--paragraph-height: 28px;
+		--paragraph-line-height: 22px;
 		--space: 30px;
 		--space-large: 40px;
 	}
@@ -84,6 +129,7 @@ body {
 		--post-card-padding: 2em 1.5em 0 1.5em;
 		--post-margin: 5.5em 0;
 		--post-padding: 0 0;
+		--post-content-padding: 1.5em;
 		--post-description-padding: 0 0 1em 0;
 		--paragraph-height: 15px;
 		--paragraph-line-height: 20px;
