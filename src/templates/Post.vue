@@ -73,7 +73,7 @@ hr {
 		justify-content: space-between;
 		align-items: center;
 		border: 1px solid var(--body-color);
-		padding: 1em;
+		padding: var(--post-card-header-padding);
 	}
 }
 

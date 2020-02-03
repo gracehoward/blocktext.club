@@ -33,6 +33,7 @@ body {
 	--post-card-height: 20em;
 	--post-card-margin: 1em 2em 0 0;
 	--post-card-padding: 2em 1.5em 0 1.5em;
+	--post-card-header-padding: 1em;
 	--post-card-tags-padding: 1em 0;
 	--header-height: 55px;
 	--line-height: 1.15em;
@@ -134,14 +135,14 @@ body {
 		--post-card-height: 20em;
 		--post-card-margin: 1em 0;
 		--post-card-padding: 2em 1.5em 0 1.5em;
+		--post-card-header-padding: 1.3em;
 		--post-card-tags-padding: 2em 0;
 		--post-margin: 5.5em 0;
 		--post-padding: 0 0;
-		--post-content-padding: 1.5em;
 		--post-description-padding: 0 0 1em 0;
-		--post-content-padding: 1.5em 2em 2.5em 2em;
+		--post-content-padding: 1em 1.75em 2.5em 1.75em;
 		--paragraph-height: 15px;
-		--paragraph-line-height: 20px;
+		--paragraph-line-height: 18px;
 		--space: 1.75em;
 		--space-large: 40px;
 		--progress-bar-height: 5px;
