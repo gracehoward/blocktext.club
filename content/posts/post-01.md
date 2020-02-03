@@ -19,7 +19,7 @@ On the former issue, Tim Berners-Lee, "inventor of the HTTP protocol and de fact
 Thinking in step with the modern Web 3.0 movement, which seeks to push back against the technofascism of Big Tech by proposing networks of distribution rather than centralization, acts of web-based self-publication outside of the immediate grasp of these corporate platforms are thus valuable.
 
 Speaking on the latter, Charles Broskoski has "'likened [the post-social media Internet' to everyone living in seven skyscrapers, when 'there’s actually this huge weird landscape [where] we could be building' eclectic homes or 'other small villages.'"<sup>2</sup>
-This metaphor— Internet as landscape— is one I keep coming back to for a multitude of reasons.
+This metaphor– Internet as landscape– is one I keep coming back to for a multitude of reasons.
 Put briefly, what this interpretation allows for is a consideration of websites as both the infrastructure of this landscape and its lively communities.
 At once local and global, personal and public-facing, individual and collective, a website is one's contribution to the vast network that is the web, and with it comes an almost unlimited set of possibilities for world-building.
 
