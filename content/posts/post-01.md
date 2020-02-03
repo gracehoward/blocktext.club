@@ -2,7 +2,7 @@
 date: "2020-02-02"
 title: "first post"
 description: "The desire to push my thoughts into the Great Internet Void has always been at odds with my aversion to posting on social media, so I spent a while thinking of a way to compromise."
-tags: ["On personal ethos, the state of the modern web, and other things."]
+tags: ["On personal ethos, the state of the modern web, networked landscapes, and other things."]
 published: true
 ---
 
@@ -19,7 +19,7 @@ Thinking in step with the modern Web 3.0 movement, which seeks to push back agai
 Speaking on the latter, Charles Broskoski has "'likened [the post-social media Internet' to everyone living in seven skyscrapers, when 'there’s actually this huge weird landscape [where] we could be building' eclectic homes or 'other small villages.'" <sup>2</sup>
 
 At the moment, I'm still (and may forever be) in the process of developing a better relationship with technology as it exists within our broader systems of power, whether that be by adopting better practices or engaging in critical dialogues re: Internet, labor, capitalism, society, etc.
-I'm not usually the type to adopt New Year's resolutions, but this year, I'm trying to consistently read (theory or otherwise), put into action an ethical, everyday praxis, and write more, among other things.
+I'm not usually the type to adopt New Year's resolutions, but this year, I'm trying to consistently read more, put into action an ethical, everyday praxis, and perhaps most relevantly, get into the habit of writing regularly, among other things.
 
 All of this is to say, I hope that BLOCKTEXT.CLUB will help me with these goals, and contribute to the building of an alternate web landscape that is more open, creative, and collaborative.
 
