@@ -75,7 +75,7 @@ query {
 
 @media screen and (max-width: $small) {
 	.header {
-		padding: 1.5em 0 1.25em 0;
+		padding: 1.75em 0 1.5em 0;
 		background-color: var(--bg-color);
 	}
 }
