@@ -18,6 +18,11 @@ hr {
 	margin: 2em 0 1.5em 0;
 }
 
+ol,
+ul {
+	padding: var(--post-content-list-padding);
+}
+
 header {
 	font-family: "neue-haas-unica", sans-serif;
 }

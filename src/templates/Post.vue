@@ -74,6 +74,19 @@ hr {
 		align-items: center;
 		border: 1px solid var(--body-color);
 		padding: var(--post-card-header-padding);
+
+		&__title,
+		&__date {
+			flex: 1;
+		}
+
+		&__title {
+			text-align: center;
+		}
+
+		&__date {
+			text-align: right;
+		}
 	}
 }
 
@@ -82,6 +95,10 @@ hr {
 	border: 1px solid var(--body-color);
 	padding: var(--post-content-padding);
 	// margin-top: 16px;
+
+	h1 {
+		font-size: var(--desc-font-size);
+	}
 
 	p {
 		margin-top: var(--paragraph-height);

@@ -22,7 +22,7 @@ body {
 	--title-font-size: 40px;
 	--desc-font-size: 33px;
 	--link-color: #444;
-	--link-font-size: 32px;
+	--link-font-size: 31px;
 	--line-color: #000;
 	--header-width: 91vw;
 	--header-height: 55px;
@@ -34,15 +34,16 @@ body {
 	--post-card-margin: 1em 2em 0 0;
 	--post-card-padding: 2em 1.5em 0 1.5em;
 	--post-card-header-padding: 1em;
-	--post-card-tags-padding: 1em 0;
+	--post-card-tags-padding: 1.75em 0 1em 0;
 	--header-height: 55px;
 	--line-height: 1.15em;
 	--paragraph-height: 28px;
-	--paragraph-line-height: 35px;
+	--paragraph-line-height: 33px;
 	--post-margin: 5.5em 0;
 	--post-padding: 0 11em;
 	--post-description-padding: 0 1em 1em 1em;
 	--post-content-padding: 2em 2em 2.5em 2em;
+	--post-content-list-padding: 0 2em;
 	--space: 45px;
 	--space-large: 80px;
 }
@@ -136,7 +137,7 @@ body {
 		--post-card-margin: 1em 0;
 		--post-card-padding: 2em 1.5em 0 1.5em;
 		--post-card-header-padding: 1.3em;
-		--post-card-tags-padding: 2em 0;
+		--post-card-tags-padding: 2.5em 0 2em 0;
 		--post-margin: 5.5em 0;
 		--post-padding: 0 0;
 		--post-description-padding: 0 0 1em 0;
