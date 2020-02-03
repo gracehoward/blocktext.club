@@ -7,13 +7,6 @@
 				<br />
 				TEXT.CLUB
 			</g-link>
-
-			<!-- <h3 class="site-description"> -->
-			<!-- 	<strong>A small blog</strong> of thoughts that exceed 280 -->
-			<!-- 	characters, -->
-			<!-- 	<br /> -->
-			<!-- 	an exercise in self-publishing on the web. -->
-			<!-- </h3> -->
 			<nav class="nav">
 				<ToggleTheme />
 			</nav>
@@ -42,20 +35,28 @@ query {
 </static-query>
 
 <style lang="scss">
+@import "../assets/style/_variables.scss";
+
 ::-webkit-scrollbar {
 	width: 0px;
 	background: transparent;
+	display: none;
+}
+
+::selection {
+	color: var(--body-color);
+	background: rgba(0, 255, 0, 0.8);
 }
 
 .header {
 	position: fixed;
 	top: 0;
-	width: var(--header-width);
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	margin: var(--space) 0;
-	height: 1em;
+	padding: var(--space) 0;
+	height: var(--header-height);
+	width: var(--header-width);
 	font-size: var(--title-font-size);
 	font-weight: 400;
 
@@ -66,9 +67,15 @@ query {
 	.glink {
 		font-size: var(--header-font-size);
 	}
+
+	nav {
+		margin-right: var(--nav-margin-right);
+	}
 }
 
-site-description {
-	width: 30vw;
+@media screen and (max-width: $small) {
+	.header {
+		background-color: var(--bg-color);
+	}
 }
 </style>

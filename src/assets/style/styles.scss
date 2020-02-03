@@ -13,6 +13,10 @@ body {
 	padding: 0 var(--space-large);
 	background-color: var(--bg-color);
 	color: var(--body-color);
+}
+
+body,
+header {
 	transition: color 0.6s, background-color 0.6s, transform 0.6s;
 }
 

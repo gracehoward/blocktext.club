@@ -84,7 +84,7 @@ export default {
 		max-width: var(--post-card-width);
 		min-width: var(--post-card-width);
 		min-height: var(--post-card-height);
-		transition: 0.2s;
+		transition: border-radius 0.4s;
 
 		&:hover {
 			border: 1px solid var(--link-color);

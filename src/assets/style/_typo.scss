@@ -14,6 +14,10 @@ body {
 	font-weight: 300;
 }
 
+hr {
+	margin: 2em 0 1.5em 0;
+}
+
 header {
 	font-family: "neue-haas-unica", sans-serif;
 }
@@ -35,6 +39,11 @@ h3 {
 p {
 	font-size: var(--base-font-size);
 	line-height: var(--line-height);
+}
+
+b,
+strong {
+	font-weight: 400;
 }
 
 a {

@@ -44,7 +44,7 @@ export default {
 	}
 
 	&__tags {
-		padding: 2em 0;
+		padding: var(--post-card-tags-padding);
 	}
 
 	&__date {
@@ -60,7 +60,7 @@ export default {
 		&:hover {
 			color: var(--link-color);
 			transform: translateY(5px);
-			transition: transform 0.5s;
+			transition: transform 0.4s;
 		}
 	}
 }

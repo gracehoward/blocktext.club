@@ -26,8 +26,7 @@
 				<p v-html="$page.post.content" />
 			</div>
 
-			<!-- Link to prev post -->
-			<!-- Link to next post -->
+			<!-- TODO: Links to previous and next posts -->
 		</div>
 	</Layout>
 </template>
@@ -87,6 +86,14 @@ hr {
 	p {
 		margin-top: var(--paragraph-height);
 		line-height: var(--paragraph-line-height);
+	}
+
+	img {
+		display: block;
+		margin: auto;
+		//border: 1px solid var(--body-color);
+		padding: 1em;
+		width: 70%;
 	}
 
 	.post-card__description {

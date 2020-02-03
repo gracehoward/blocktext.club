@@ -131,10 +131,9 @@ export default {
 }
 
 @media screen and (max-width: $small) {
-	// position = bottom
+	// position = top
 	.read-progress-container {
-		top: unset;
-		bottom: 0;
+		top: 0;
 		left: 0;
 		transform: none;
 	}
