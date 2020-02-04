@@ -23,12 +23,12 @@ body {
 	--desc-font-size: 33px;
 	--link-color: #444;
 	--link-font-size: 31px;
+	--code-font-size: 0.9em;
+	--code-line-height: 1.25em;
 	--line-color: #000;
 	--header-width: 91vw;
 	--header-height: 55px;
 	--nav-margin-right: 0;
-	--toggle-icon-width: 24px;
-	--toggle-icon-height: 24px;
 	--post-card-width: 9em;
 	--post-card-height: 20em;
 	--post-card-margin: 1em 2em 0 0;
@@ -129,6 +129,8 @@ body {
 		--title-font-size: 20px;
 		--desc-font-size: 19px;
 		--link-font-size: 18px;
+		--code-font-size: 0.85em;
+		--code-line-height: 1.25em;
 		--header-width: 92vw;
 		--header-height: 1vh;
 		--nav-margin-right: 2em;

@@ -13,14 +13,14 @@ Even short thoughts struggle to find their way out of my Twitter drafts.
 ~
 
 I believe strongly in the act of independent publication, both as an artistic practice and as an urgent praxis (see Paul Soullelis' [QUEER.ARCHIVE.WORK](https://soulellis.com/work/queerarchivework/index.html) and [Search, Compile, Publish](https://soulellis.com/2013/05/search-compile-publish/)).
-In the current moment, the barriers to entry are lower than they've ever been, and the Internet is to thank for that; indeed, the ethos of the early Internet was largely predicated on the very idea of an open and free dissemination of ideas. Unfortunately, the increasing control of the few megacorporations has posed an existential threat to this core ethos, and the obliterative ascent of these platforms has had the additional consequence of sounding the death knell for the mosaic of vibrant, handmade websites that populated the early web. 
+In the current moment, the barriers to entry are lower than they've ever been, and the Internet is to thank for that; indeed, the ethos of the early Internet was largely predicated on the very concept of an open and free dissemination of ideas. Unfortunately, the increasing control of the few megacorporations has posed an existential threat to this core ethos, and the obliterative ascent of these platforms has had the additional consequence of sounding the death knell for the mosaic of vibrant, handmade websites that populated the early web. 
 
 On the former issue, Tim Berners-Lee, "inventor of the HTTP protocol and de facto father of the web, has spoken frequently about the need to actively resist web centralization so as to keep his creation in the hands of the people."<sup>1</sup>
 Thinking in step with the modern Web 3.0 movement, which seeks to push back against the technofascism of Big Tech by proposing networks of distribution rather than centralization, acts of web-based self-publication outside of the immediate grasp of these corporate platforms are thus valuable.
 
 Speaking on the latter, Charles Broskoski has "'likened [the post-social media Internet' to everyone living in seven skyscrapers, when 'there’s actually this huge weird landscape [where] we could be building' eclectic homes or 'other small villages.'"<sup>2</sup>
 This metaphor– Internet as landscape– is one I keep coming back to for a multitude of reasons.
-Put briefly, what this interpretation allows for is a consideration of websites as both the infrastructure of this landscape and its lively communities.
+Put briefly, what this interpretation allows for is a consideration of websites as both the infrastructure of this landscape and the foundation for its communities.
 At once local and global, personal and public-facing, individual and collective, a website is one's contribution to the vast network that is the web, and with it comes an almost unlimited set of possibilities for world-building.
 
 ~

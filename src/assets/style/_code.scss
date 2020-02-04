@@ -14,16 +14,21 @@ code {
 	padding: 0.1em 0.2em;
 }
 
-code[class*="language-"],
-pre[class*="language-"] {
+pre,
+code {
 	font-family: "SF Mono", Consolas, Monaco, "Andale Mono", "Ubuntu Mono",
 		monospace;
+	font-size: var(--code-font-size);
+}
+
+code[class*="language-"],
+pre[class*="language-"] {
 	text-align: left;
 	white-space: pre;
 	word-spacing: normal;
 	word-break: normal;
 	word-wrap: normal;
-	line-height: 1.5;
+	line-height: var(--code-line-height);
 
 	-moz-tab-size: 4;
 	-o-tab-size: 4;
@@ -49,6 +54,7 @@ pre[class*="language-"] {
 
 /* Inline code */
 :not(pre) > code[class*="language-"] {
+	//font-family: "SF Mono", Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
 	white-space: normal;
 }
 
