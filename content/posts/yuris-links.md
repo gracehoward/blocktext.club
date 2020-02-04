@@ -1,6 +1,6 @@
 ---
 date: "2020-02-03"
-title: "link exchange 1"
+title: "link exchange"
 description: "Yuri's contribution: 7 curated links"
 tags: ["Yuri's contribution: 7 curated links."]
 published: true 
