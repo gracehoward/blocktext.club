@@ -10,7 +10,7 @@ Around a year ago, I made a Medium account and entertained the idea of publishin
 Twitter is the primary social media service I use, so I'd often find myself drafting thoughts in the form of tweets, but somewhere along the process of composing and clarifying my ideas, they'd evolve quickly beyond the 280 character limit.
 Even short thoughts struggle to find their way out of my Twitter drafts.
 
-<img src="https://d2w9rnfcy7mm78.cloudfront.net/6118342/original_c9bd34988930b2b32331f9d4f6ad31db.gif?1581183702?bc=0" class="kinetic4">
+<img src="https://d2w9rnfcy7mm78.cloudfront.net/6125986/original_b17c18e8f94b583eb099939fad217895.gif?1581283100?bc=0" class="kinetic4">
 
 I believe strongly in the act of independent publication, both as an artistic practice and as an urgent praxis (see Paul Soullelis' [QUEER.ARCHIVE.WORK](https://soulellis.com/work/queerarchivework/index.html) and [Search, Compile, Publish](https://soulellis.com/2013/05/search-compile-publish/)).
 In the current moment, the barriers to entry are lower than they've ever been, and the Internet is to thank for that; indeed, the ethos of the early Internet was largely predicated on the very concept of an open and free dissemination of ideas. Unfortunately, the increasing control of the few megacorporations has posed an existential threat to this core ethos, and the obliterative ascent of these platforms has had the additional consequence of sounding the death knell for the mosaic of vibrant, handmade websites that populated the early web. 
