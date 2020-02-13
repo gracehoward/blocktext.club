@@ -60,7 +60,7 @@ But to truly adopt Kazemi's proposed method of social networking, to be a part o
 Running a tilde server poses similar obstacles, with the additional technical requirements of knowing how to move around the command line, as that's where all interaction takes place.
 Due to the large difference in interface (website or mobile app vs. terminal), Mastodon presents the best solution to more mindful social networking— indeed, tilde servers may not necessarily even want to classify themselves as social networks in the most commonly understood sense of the term.
 
-Regardless of whether this move is being undertaken by a small group of friends or a tight-knit community, the process will undeniably involve a learning curve (of variable steepness), and will inevitably require some effort and engagement on the part of all participants.
+Regardless of whether this move is being undertaken by a small group of friends or a tight-knit community, the process will undeniably involve a learning curve (of variable steepness), and will inevitably require some effort and engagement on part of all participants.
 For the de facto sysadmin, this is compounded by a commitment of time, maintenance, moderation, and dollars.
 Is it worth it?
 For certain people, this answer is yes.
@@ -78,7 +78,7 @@ And these are just some (of many) valid reasons to pause before diving headfirst
 
 # Concluding Notes
 
-Ultimately, I don't have a prescriptive, be-all, end-all answer, nor do I think a solution has to necessarily mean choosing one over the other once and for all.
+Ultimately, I don't have a prescriptive, be-all, end-all answer, nor do I think a solution has to mean definitively choosing one over the other.
 But if there is a way to stymie the dominance of less benevolent actors and provide a space for people and ideas and fellowship to thrive, away from the outside noise, then I think it's worth a try.
 
 The key idea that Kazemi advocates for in his guide is to use these alternate technologies to cultivate small communities— no more than "50 to 100 active users," and the fewer, the better fare.
@@ -86,8 +86,8 @@ If the larger, louder social media platforms are like megaphones broadcasting ou
 
 I'd love to implement a Mastodon server in an educational setting, but also with groups of friends who are willing to give it a shot.
 Something that strikes me as particularly important is widening the definition of what is possible by putting these tools in the hands of more people, not just the programmatically inclined, or an oligarchy of technocratic billionaires.
-Artists, activists, and educators all play a vital role in world building, particularly when it comes to imagining and working toward a more equitable future, tearing down barriers of accessibility, and impacting the lives of many, among effecting other transformative changes.
-The more people who are aware of what is possible, the more we will see our online landscape reflect the interests of a wider range of people, rather than continuing to allow them to be shaped by profit-driven entities. 
+Artists, activists, and educators all play vital roles in world building, particularly when it comes to imagining and working toward a more equitable future, tearing down barriers of accessibility, and impacting the lives of many, among other transformative changes.
+The more people who are aware of what is possible, the more we may see our online landscape reflect the interests of a wider and more conscionable population, rather than continuing to allow them to be shaped by profit-driven entities. 
 
 
 ---
