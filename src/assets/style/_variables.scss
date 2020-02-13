@@ -23,6 +23,7 @@ body {
 	--desc-font-size: 33px;
 	--link-color: #444;
 	--link-font-size: 31px;
+	--sup-font-size: 0.85em;
 	--code-font-size: 0.9em;
 	--code-line-height: 1.25em;
 	--line-color: #000;
@@ -174,6 +175,18 @@ body[data-theme="dark"] {
 	--border-color: rgba(255, 255, 255, 0.1);
 	--body-color: #ced8de;
 	--title-color: #fff;
+	--line-color: #fff;
 	--link-color: #fff;
 	--progress-bar-color: #fff;
+}
+
+body[data-theme="light"] {
+	--bg-color: #ffffff;
+	--bg-content-color: #fff;
+	--bg-code: #fff;
+	--body-color: #000;
+	--title-color: #000;
+	--link-color: #444;
+	--line-color: #000;
+	--progress-bar-color: #00ff00;
 }

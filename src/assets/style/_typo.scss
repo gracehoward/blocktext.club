@@ -63,6 +63,19 @@ a {
 	}
 }
 
+sup {
+	font-size: var(--sup-font-size);
+	a {
+		font-family: "neue-haas-unica", sans-serif;
+		font-size: var(--sup-font-size);
+		border: none;
+
+		&:hover {
+			border: none;
+		}
+	}
+}
+
 .glink {
 	font-size: var(--title-font-size);
 	font-family: "neue-haas-unica", sans-serif;

@@ -113,11 +113,11 @@ hr {
 		width: 70%;
 	}
 
-	.kinetic4 {
-		margin-top: 1em;
+	/* .larger-image-block {
+        margin-top: 1em;
 		padding: 0;
 		width: 90%;
-	}
+	} */
 
 	.post-card__description {
 		padding: var(--post-description-padding);
